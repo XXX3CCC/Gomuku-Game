@@ -1,13 +1,13 @@
 ## [Assignment2 description](https://jrwright.info/cmput455/assignments/a2.html)
 
-## Assignment Overview
+### Assignment Overview
 In this assignment, you develop a perfect endgame solver for the game of Gomoku. You also integrate your solver into a player, based on our starter code, which is an Assignment 1 sample solution. This player will play randomly at first, but will then play a perfect endgame as soon as it can solve the game.
 
 To review the game Gomoku, see Assignment 1.
 
 
 
-## Setup
+### Setup
 1. Review the Assignments page for general questions about assignments.
 2. As in assignment 1, make sure you have Python 3, NumPy and GoGui 1.51 set up. You can review the procedures under Lecture 3 activities.
 3. Also, check the Assignment 2 preview and "more preview" in the lecture slides.
@@ -44,7 +44,7 @@ Here, the argument color is either 'b' or 'w'. A version of the genmove command 
 
 
 
-## Public Test Cases
+### Public Test Cases
 We have grouped our assignment2-public-tests.gtp test cases into three categories.
 Easy - our simple sample solver can do them within the time limit given.
 Medium - our simple solver is too slow, but our better solver can do them.
@@ -56,7 +56,7 @@ All the tests fail for the starter code, since it does not implement the new com
 
 
 
-## Other GTP Commands
+### Other GTP Commands
 Many other GTP commands are already implemented in the starter code. Do not break their functionality, since we will test your program using those commands, such as:
 
 boardsize, clear_board, cpu_time, name, version, play,...
@@ -66,7 +66,7 @@ These commands are used by the test script. In this assignment, for convenience 
 
 
 
-## Pre-submission Test and Submission
+### Pre-submission Test and Submission
 Follow the same general steps as in assignment 1 to create your presubmission.log file and your submission, but (of course) using your assignment2 directory, assignment2.tgz as file name, and assignment2-public-tests.gtp as test. Remember to include your new presubmission.log and readme.txt.
 
 1. Your file must be a valid tgz file named assignment2.tgz which can be uncompressed with tar -xzvf assignment2.tgz
@@ -76,7 +76,7 @@ Follow the same general steps as in assignment 1 to create your presubmission.lo
 
 
 
-## Hints and Details - Read them All
+### Hints and Details - Read them All
 Your solve command must stay within the time limit. For some ideas of how to do that in Python 3, see Measuring Time. Whatever you do, make sure it works on the undergrad machines.
 We recommend that to ensure that your solver is working and keeping the time limits, you test your player by playing a few test matches between the original random player, and your player which includes your solver, with a modest time limit per move. You can use the gogui-twogtp tool to run the matches. See the gogui-twogtp notes.
 
