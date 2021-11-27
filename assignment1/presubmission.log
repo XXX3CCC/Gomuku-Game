@@ -1,0 +1,21 @@
+Script started on 2021-09-18 18:54:11-06:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="80" LINES="24"]
+yulong6@ug01:~/Desktop>cp -R assign,e[K[K,m[K[Kment1.tgz test
+yulong6@ug01:~/Desktop>cd test
+yulong6@ug01:~/Desktop/test>tar -xvf assignment1.tgz 
+assignment1/
+assignment1/._assignment1-public-tests.gtp
+assignment1/readme.txt
+assignment1/gtp_connection.py
+assignment1/board_util.py
+assignment1/gtp_connection_old.py
+assignment1/test_board.py
+assignment1/test_board_util.py
+assignment1/board.py
+assignment1/Go0.py
+assignment1/assignment1-public-tests.gtp
+yulong6@ug01:~/Desktop/test>cd assignment1
+yulong6@ug01:~/Desktop/test/assignment1>gogui-regress ./Go0.py assignment1-public-tests.gtp [K
+yulong6@ug01:~/Desktop/test/assignment1>exit
+exit
+
+Script done on 2021-09-18 18:55:28-06:00 [COMMAND_EXIT_CODE="0"]
