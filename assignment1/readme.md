@@ -7,7 +7,7 @@ You do this by modifying the assignment 1 starter code which is based on the Go0
 
 
 
-Setup
+## Setup
 First, make sure you have completed your Activities up to and including 3c. In these activities you set up Python 3, NumPy, and GoGui 1.5.1, install and run the Go0 and Go1 programs, do the sample session with the Go1 program.
 Download and expand assignment1.tgz . Go to the directory assignment1, which contains:
 A modified copy of the Go0 program as your starter code. Start with this code to implement your solution.
@@ -25,7 +25,7 @@ When implementing your solution based on the starter code, be aware of the commo
 
 
 
-GTP Commands
+## GTP Commands
 We will test your program using the GTP commands below. These commands are already implemented in the starter code, but the implementation either is for Go or is just a stub that returns "unknown" or similar. You only need to change or implement the commands as indicated below.
 
 boardsize
@@ -63,19 +63,19 @@ See Details for the gogui-rules_final_result command below. Also see Details for
 
 
 
-Public Test Cases
+## Public Test Cases
 The public test cases are in file assignment1-public-tests.gtp in the assignment1 directory. Most tests currently fail, since the program does not implement those commands correctly yet. See Testing Procedure below for examples.
 
 Note that our given test cases only cover a small number of cases. For evaluation, we will use a more comprehensive set of tests.
 
 
 
-Testing Procedure
+## Testing Procedure
 All our tests will be on a Gomoku board of size 19x19 or smaller. As in assignment1-public-tests.gtp, test cases are written as text files containing a sequence of GTP commands. Test cases contain both unnumbered GTP commands to set up a position, and numbered GTP commands to do the tests. Each test is followed by the expected correct answer.
 
 
 
-What to Submit
+## What to Submit
 Submit a single tgz file called assignment1.tgz which contains exactly the following (and nothing else):
 
 A single directory assignment1 which contains all the files in your solution, namely:
@@ -100,7 +100,7 @@ Fix any problems, then submit on eClass when you're ready
 
 
 
-Details - Read Them All!
+## Details - Read Them All!
 Where to implement things: Implement all your code in the assignment1 folder. You may create new files within this folder, but it might not be necessary for this assignment.
 Our tests will only use legal GTP commands with meaningful arguments, except for testing the error handling in the play command. You do not need to implement any other error checking.
 DETAILS OF THE PLAY COMMAND
