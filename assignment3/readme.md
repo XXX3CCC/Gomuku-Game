@@ -1,8 +1,8 @@
-[Assignment3 description](https://jrwright.info/cmput455/assignments/a3.html)
+## [Assignment3 description](https://jrwright.info/cmput455/assignments/a3.html)
 
 In this assignment, you develop and then improve a simulation-based player for the game of Gomoku. You add your improvements to the same starter code as for Assignment 2, which is a random Gomoku player.
 
-## Setup
+### Setup
 1. First, as in previous assignments, make sure you have your Python 3, NumPy and GoGui set up. You can review the procedures under Lecture 3 activities.
 2. Download assignment3.tgz and expand it. The directory assignment3 contains:
     The same starter code as for assignment 2. This is based on a sample solution to assignment 1, and implements a random Gomoku player.
@@ -17,7 +17,7 @@ In this assignment, you develop and then improve a simulation-based player for t
 
 
 
-## PART 1: SIMULATION-BASED GOMOKU PLAYER
+### PART 1: SIMULATION-BASED GOMOKU PLAYER
 Create a new file Gomoku3.py inside your assignment3 folder. Then implement a simulation-based "Flat Monte Carlo" player there. The default player, when run without any of the behavior-changing options below, should work as follows:
 
 A simulation consists of a series of moves generated uniformly at random, and ends when the game is over (win or draw) as defined in assignment 1.
@@ -26,7 +26,7 @@ As in assignment 1, your player should resign or pass only when the game is over
 
 
 
-## PART 2: RULE-BASED SIMULATIONS
+### PART 2: RULE-BASED SIMULATIONS
 In rule-based simulations, we restrict the number of moves that we choose from during simulation. For example, in class we looked at the MoGo patterns and some tactical rules in the case of Go. In this part of the assignment, you implement a rulebased policy with the rules below for your Gomoku3 player. The policy recognizes five types of moves. Go through the rules in order from most urgent (higher up in the list) to least urgent. For each rule, create the list of moves that match the rule. If the rule generates one or more moves, then randomly pick one of these moves. If the rule leads to an empty list of moves (no moves match), then proceed to the next rule.
 
 1. Win: if you can win directly, in one move, then only consider one of the winning moves.
@@ -43,7 +43,7 @@ In Gomoku, there are more rules that make sense. For example, it is often a good
 
 
 
-## GTP COMMANDS
+### GTP COMMANDS
 policy policytype
 Sets the playout policy to be used from now on to the given type. The argument policytype is either random or rule_based.
 policy_moves
@@ -63,7 +63,7 @@ All other existing GTP commands should be left as-is.
 
 
 
-## The Usual Warnings - Read them All
+### The Usual Warnings - Read them All
 Please make sure that these details are correct in your assignment 3 submission.
 Your file must be a valid tgz file named assignment3.tgz which can be uncompressed with tar -xf assignment3.tgz
 Name your main file Gomoku3.py and put it in the assignment3 directory.
@@ -74,7 +74,7 @@ Follow the same general steps as in assignment 1 to create your presubmission.lo
 
 
 
-## Hints and Details - Read them All
+### Hints and Details - Read them All
 Your simulation should stop immediately if the game is over according to the rules.
 No special error handling code is required in this assignment. We will only test with valid moves and valid GTP commands which have valid arguments.
 We will only test with alternating play, so any play commands will be for the color toPlay. Clearing the board resets toPlay to Black.
