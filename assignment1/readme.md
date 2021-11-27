@@ -80,23 +80,25 @@ Submit a single tgz file called assignment1.tgz which contains exactly the follo
 
 A single directory assignment1 which contains all the files in your solution, namely:
 
-All the files from the original assignment1 directory, but with the python code modified to solve the assignment.
-Your presubmission.log file.
-A file readme.txt which lists the names and student IDs of your team. List the designated submitter first.
-Do Your Own Pre-submission Test
+1. All the files from the original assignment1 directory, but with the python code modified to solve the assignment.
+2. Your presubmission.log file.
+3. A file readme.txt which lists the names and student IDs of your team. List the designated submitter first.
+
+
+## Do Your Own Pre-submission Test
 Follow the steps below on a standard undergraduate machine, and create a text file presubmission.log that shows a copy of your command line presubmission testing.
 
-Make sure the content of your assignment1 folder is correct, then create your submission with a command like tar -cvzf assignment1.tgz assignment1
-Use the Linux script command to log your testing session
-Copy your assignment1.tgz into a new directory
-Unpack it
-Run gogui-regress with your program, using assignment1-public-tests.gtp as input
-Stop script logging here with the command exit
-Add file presubmission.log to your assignment1, and compress it again
-Use tar -tf for a final check of your assignment1.tgz contents. Use the checklist below
-If you see extra files included in your tgz file that do not belong:
-Use tar options such as --exclude=__pycache__ to get rid of them.
-Fix any problems, then submit on eClass when you're ready
+1. Make sure the content of your assignment1 folder is correct, then create your submission with a command like tar -cvzf assignment1.tgz assignment1
+2. Use the Linux script command to log your testing session
+3. Copy your assignment1.tgz into a new directory
+4. Unpack it
+5. Run gogui-regress with your program, using assignment1-public-tests.gtp as input
+6. Stop script logging here with the command exit
+7. Add file presubmission.log to your assignment1, and compress it again
+8. Use tar -tf for a final check of your assignment1.tgz contents. Use the checklist below
+9. If you see extra files included in your tgz file that do not belong:
+    Use tar options such as --exclude=__pycache__ to get rid of them.
+10. Fix any problems, then submit on eClass when you're ready
 
 
 
