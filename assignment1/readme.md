@@ -1,3 +1,5 @@
+[Assignment1 description](https://jrwright.info/cmput455/assignments/a1.html)
+
 In this assignment, you implement a random player for the game Gomoku, also called Five in a Row. 
 You do this by modifying the assignment 1 starter code which is based on the Go0 program from class, but modified to make your job easier. The main steps are:
 
