@@ -18,7 +18,7 @@ To review the game Gomoku, see Assignment 1.
 
 
 
-## Goals of the Assignment
+### Goals of the Assignment
 Implement the following functionality by adding or modifying existing GTP commands:
 
 1. Implement a GTP command
