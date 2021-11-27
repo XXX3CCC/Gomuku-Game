@@ -9,7 +9,7 @@ You do this by modifying the assignment 1 starter code which is based on the Go0
 
 
 
-## Setup
+### Setup
 First, make sure you have completed your Activities up to and including 3c. In these activities you set up Python 3, NumPy, and GoGui 1.5.1, install and run the Go0 and Go1 programs, do the sample session with the Go1 program.
 Download and expand assignment1.tgz . Go to the directory assignment1, which contains:
 A modified copy of the Go0 program as your starter code. Start with this code to implement your solution.
@@ -17,7 +17,7 @@ A file assignment1-public-tests.gtp with sample test cases for your program.
 
 
 
-## Rules of Gomoku
+### Rules of Gomoku
 Gomoku or Five in a Row is played on a Go board. The game starts with an empty board, and players Black and White alternate to place a stone of their color on a grid point. Black goes first. The goal of the game is to create a line of five or more stones of your own color, either horizontally, vertically or diagonally. The first player to achieve that goal wins. If neither player creates five in a row, then the game is a draw.
 
 For more information on the game, you can see the wikipedia page. Note that many variants of the rules are discussed on that page. We use what they call Free-style gomoku, which defines the win as five or more stones in a row, and puts no restrictions on which moves are allowed.
@@ -27,7 +27,7 @@ When implementing your solution based on the starter code, be aware of the commo
 
 
 
-## GTP Commands
+### GTP Commands
 We will test your program using the GTP commands below. These commands are already implemented in the starter code, but the implementation either is for Go or is just a stub that returns "unknown" or similar. You only need to change or implement the commands as indicated below.
 
 boardsize
@@ -65,19 +65,19 @@ See Details for the gogui-rules_final_result command below. Also see Details for
 
 
 
-## Public Test Cases
+### Public Test Cases
 The public test cases are in file assignment1-public-tests.gtp in the assignment1 directory. Most tests currently fail, since the program does not implement those commands correctly yet. See Testing Procedure below for examples.
 
 Note that our given test cases only cover a small number of cases. For evaluation, we will use a more comprehensive set of tests.
 
 
 
-## Testing Procedure
+### Testing Procedure
 All our tests will be on a Gomoku board of size 19x19 or smaller. As in assignment1-public-tests.gtp, test cases are written as text files containing a sequence of GTP commands. Test cases contain both unnumbered GTP commands to set up a position, and numbered GTP commands to do the tests. Each test is followed by the expected correct answer.
 
 
 
-## What to Submit
+### What to Submit
 Submit a single tgz file called assignment1.tgz which contains exactly the following (and nothing else):
 
 A single directory assignment1 which contains all the files in your solution, namely:
@@ -87,7 +87,7 @@ A single directory assignment1 which contains all the files in your solution, na
 3. A file readme.txt which lists the names and student IDs of your team. List the designated submitter first.
 
 
-## Do Your Own Pre-submission Test
+### Do Your Own Pre-submission Test
 Follow the steps below on a standard undergraduate machine, and create a text file presubmission.log that shows a copy of your command line presubmission testing.
 
 1. Make sure the content of your assignment1 folder is correct, then create your submission with a command like tar -cvzf assignment1.tgz assignment1
@@ -104,7 +104,7 @@ Follow the steps below on a standard undergraduate machine, and create a text fi
 
 
 
-## Details - Read Them All!
+### Details - Read Them All!
 Where to implement things: Implement all your code in the assignment1 folder. You may create new files within this folder, but it might not be necessary for this assignment.
 Our tests will only use legal GTP commands with meaningful arguments, except for testing the error handling in the play command. You do not need to implement any other error checking.
 DETAILS OF THE PLAY COMMAND
