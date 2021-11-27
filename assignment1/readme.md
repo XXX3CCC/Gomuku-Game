@@ -15,7 +15,7 @@ A file assignment1-public-tests.gtp with sample test cases for your program.
 
 
 
-Rules of Gomoku
+## Rules of Gomoku
 Gomoku or Five in a Row is played on a Go board. The game starts with an empty board, and players Black and White alternate to place a stone of their color on a grid point. Black goes first. The goal of the game is to create a line of five or more stones of your own color, either horizontally, vertically or diagonally. The first player to achieve that goal wins. If neither player creates five in a row, then the game is a draw.
 
 For more information on the game, you can see the wikipedia page. Note that many variants of the rules are discussed on that page. We use what they call Free-style gomoku, which defines the win as five or more stones in a row, and puts no restrictions on which moves are allowed.
