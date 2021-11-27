@@ -1,6 +1,6 @@
-[Assignment2 description](https://jrwright.info/cmput455/assignments/a2.html)
+## [Assignment2 description](https://jrwright.info/cmput455/assignments/a2.html)
 
-##Assignment Overview
+## Assignment Overview
 In this assignment, you develop a perfect endgame solver for the game of Gomoku. You also integrate your solver into a player, based on our starter code, which is an Assignment 1 sample solution. This player will play randomly at first, but will then play a perfect endgame as soon as it can solve the game.
 
 To review the game Gomoku, see Assignment 1.
