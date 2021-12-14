@@ -1,3 +1,5 @@
+## [Assignment4 description](https://jrwright.info/cmput455/assignments/a4.html)
+
 In this assignment, you develop your own player for the game of Gomoku. 
 You can implement any player you want using any techniques, as long as it's in Python3 and follows the rules and constraints below. 
 We will test the performance of your player in two tournaments.
