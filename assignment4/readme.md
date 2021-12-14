@@ -7,7 +7,7 @@ We will test the performance of your player in two tournaments.
 In the marking tournament, for regular assignment marks, we will match your player against a fixed set of our Gomoku players.
 The championship tournament, for bonus points and eternal fame, will be a tournament among student programs. The winning team will be crowned the Fall 2021 Cmput 455 Gomoku champions.
 
-## Setup
+### Setup
 1. First, as in previous assignments, make sure you have your Python 3, NumPy and GoGui 1.51 set up. You can review the procedures under Lecture 3 activities.
 2. Download assignment4.tgz and expand it. The directory assignment4 contains:
     Code for two of the four opponents for the marking tournament: a random_player directory containing the random Gomoku player Gomoku2.py, and a flat_mc_player directory containing the simulation-based player Gomoku3.py.
@@ -25,12 +25,12 @@ If a program crashes or exceeds the memory limit, it instantly loses the game.
 If a game is interrupted for other reasons, it may be replayed at the decision of the instructor.
 Your player is allowed but not required to resign. It will not be called to generate a move after the game is over.
 
-## TEAM NAMES
+### TEAM NAMES
 We would like to provide updates as the tournament progresses.
 So in your readme file, please provide a teamname as well, which we will use for public updates. The team name should not contain the team member names to provide a level of anonymity.
 As stated below, when you submit your assignment, please rename the dir gomoku4 to your team name, using underscores in place of spaces and removing any special characters if needed.
 
-## CONSTRAINTS
+### CONSTRAINTS
 You can use any code provided as part of this course, but no other outside sources of code.
 Your program is not allowed to use more than one thread.
 Your program is not allowed to use programming languages other than Python3.
@@ -38,12 +38,12 @@ Your program is allowed to read/write files within your assignment4 directory on
 The total size of assignment submissions, including all files, is limited to 1 Megabyte uncompressed.
 Further reasonable constraints to prevent abuse may be imposed as we become aware of them.
 
-## GTP COMMANDS
+### GTP COMMANDS
 genmove color
 Your genmove command should generate a move using your player, and comply with the rules and constraints above.
 All other existing GTP commands should be left as-is.
 
-## The Usual Warnings, Hints and Details - Read them All
+### The Usual Warnings, Hints and Details - Read them All
 Please make sure that these details are correct in your assignment 4 submission.
 Your file must be a valid tgz file named assignment4.tgz which can be uncompressed with tar -xf assignment4.tgz
 Keep the name of your main file Gomoku4.py and keep it in a directory named after your team.
@@ -51,7 +51,7 @@ Do not introduce extra levels of directories.
 You may add extra python files within the same directory.
 By default, we assume that teams will stay the same as in assignment 3. If you change your team, email the TAs the new information before the assignment 4 deadline.
 
-## Pre-submission Test and Submission
+### Pre-submission Test and Submission
 Play one test game against Gomoku2.py as follows:
 1. Change player1 in the script to your progam's path, team_name/Gomoku4.py
 2. Use numGame=1 as the parameter for the playGames() function.
