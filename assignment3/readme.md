@@ -15,16 +15,12 @@ In this assignment, you develop and then improve a simulation-based player for t
     Lecture 12 python codes which include simulation-based players for TicTacToe.
     The Go3 program and the Go3 documentation.
 
-
-
 ### PART 1: SIMULATION-BASED GOMOKU PLAYER
 Create a new file Gomoku3.py inside your assignment3 folder. Then implement a simulation-based "Flat Monte Carlo" player there. The default player, when run without any of the behavior-changing options below, should work as follows:
 
 A simulation consists of a series of moves generated uniformly at random, and ends when the game is over (win or draw) as defined in assignment 1.
 The player runs N=10 simulations for each legal move, and picks one with highest win percentage. See simulation_player.py for a sample implementation of the algorithm. You are free to break ties between equally good moves in any way you wish.
 As in assignment 1, your player should resign or pass only when the game is over.
-
-
 
 ### PART 2: RULE-BASED SIMULATIONS
 In rule-based simulations, we restrict the number of moves that we choose from during simulation. For example, in class we looked at the MoGo patterns and some tactical rules in the case of Go. In this part of the assignment, you implement a rulebased policy with the rules below for your Gomoku3 player. The policy recognizes five types of moves. Go through the rules in order from most urgent (higher up in the list) to least urgent. For each rule, create the list of moves that match the rule. If the rule generates one or more moves, then randomly pick one of these moves. If the rule leads to an empty list of moves (no moves match), then proceed to the next rule.
@@ -40,8 +36,6 @@ In rule-based simulations, we restrict the number of moves that we choose from d
 All the examples above are given for X to play. However, your code should work for both players.
 
 In Gomoku, there are more rules that make sense. For example, it is often a good move to make a threat that can be blocked, such as playing one of the empty points in ..XXXO However, in this assignment you do not implement such other rules.
-
-
 
 ### GTP COMMANDS
 policy policytype
@@ -61,8 +55,6 @@ genmove color
 Your genmove command should generate a move using the rule-based simulation player with your new improved simulation policy.
 All other existing GTP commands should be left as-is.
 
-
-
 ### The Usual Warnings - Read them All
 Please make sure that these details are correct in your assignment 3 submission.
 Your file must be a valid tgz file named assignment3.tgz which can be uncompressed with tar -xf assignment3.tgz
@@ -71,8 +63,6 @@ Do not introduce extra levels of directories or different directory names. Keep 
 You may add extra python files within the same directory.
 Pre-submission Test and Submission
 Follow the same general steps as in assignment 1 to create your presubmission.log file and your submission, but (of course) using your assignment3 directory, assignment3.tgz as file name, and assignment3-public-tests.gtp as test. Remember to include your new presubmission.log and readme.txt.
-
-
 
 ### Hints and Details - Read them All
 Your simulation should stop immediately if the game is over according to the rules.
