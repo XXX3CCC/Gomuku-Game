@@ -16,7 +16,7 @@ The championship tournament, for bonus points and eternal fame, will be a tourna
     We will not publish the other two players before the tournament, but here is a little bit of information about them. One will be an optimized MCTS-based player, and the other one will be a mystery opponent. We will tune the strength of these two players such that they will be a little bit more challenging than the simulation player, but not impossible to defeat within the scope of an assignment.
     Modify/add code in directory assignment4 only to implement your solution.
     
-## RULES
+### RULES
 All games will be played on a 7x7 board.
 The time limit will be 60 seconds per move. If a program does not play within the time limit, it will be killed by the script and instantly loses the game. We recommend leaving a little bit of extra time and not fully use the 60 seconds, just to be safe.
 The memory limit will be 1 Gigabyte per program.
