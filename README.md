@@ -23,3 +23,5 @@ Many Python 3 programs will be provided to illustrate algorithms and concepts. T
 
 • Learn how to apply techniques in own projects
 
+## Assignments:
+In all of four assignments, we implement a random player and the rules of Gomoku for the game Gomoku, which including creating a list of legal moves, detecting a win, and playing a move for the game Gomoku. Based on some starter code, we also develop a perfect endgame solver for the game of Gomoku. We integrate the solver into a player, develop and then improve a simulation-based player for the game of Gomoku. We have some public test cases and need to pass them all.
