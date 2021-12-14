@@ -5,7 +5,6 @@ You can implement any player you want using any techniques, as long as it's in P
 We will test the performance of your player in two tournaments.
 
 In the marking tournament, for regular assignment marks, we will match your player against a fixed set of our Gomoku players.
-The championship tournament, for bonus points and eternal fame, will be a tournament among student programs. The winning team will be crowned the Fall 2021 Cmput 455 Gomoku champions.
 
 ### Setup
 1. First, as in previous assignments, make sure you have your Python 3, NumPy and GoGui 1.51 set up. You can review the procedures under Lecture 3 activities.
